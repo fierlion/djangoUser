@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t,e,n){function r(){n.register(i.email,i.password,i.username)}var i=this;i.register=r}angular.module("thinkster.authentication.controllers").controller("RegisterController",t),t.$inject=["$location","$scope","Authentication"]}();

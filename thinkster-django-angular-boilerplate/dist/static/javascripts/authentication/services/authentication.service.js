@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t,n){function e(t,e,i){return n.post("/api/v1/accounts/",{username:i,password:e,email:t})}var i={register:e};return i}angular.module("thinkster.authentication.services").factory("Authentication",t),t.$inject=["$cookies","$http"]}();
